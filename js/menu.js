@@ -1,6 +1,1 @@
-const icomenu = document.querySelector(".ico_menu")
-const navmenu = document.querySelector(".menu")
-
-icomenu.addEventListener("click",()=>{
-    navmenu.classList.toggle("mostrar")
-})
+const icomenu=document.querySelector(".ico_menu"),navmenu=document.querySelector(".menu");icomenu.addEventListener("click",()=>{navmenu.classList.toggle("mostrar")});
