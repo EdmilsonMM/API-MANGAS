@@ -1,0 +1,70 @@
+@media screen and (min-width: 1400px) {
+    /*Menu*/
+
+    .header_pagina{
+        background-color: black;
+        padding: 10px 0;
+        width: 100%;    
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .menu{
+        display: flex;
+        align-items: center;
+    }
+
+    .menu li{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    .menu li a {
+        text-decoration: none;
+    }
+
+    .menu li:hover{
+        background: rgb(39, 39, 39);
+    }
+    
+
+    .ico_menu{
+        display: none;
+    }
+
+    .menu{
+        width: initial;
+        position: initial;
+        padding: 0;
+
+        text-align: initial;
+        height: initial;
+        line-height: initial;
+        transform: translateX(0);
+
+    }
+
+
+    /*CONTENEDOR DE MANGAS*/
+    .content_mangas{
+        max-width: 1100px;
+        margin: auto;
+    }
+
+
+    /*Buscar mangas*/
+    .mangas_buscar {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .mangas_all{
+        justify-content: space-between;
+    }
+    .mangas_top{
+        justify-content: space-between;
+        
+    }
+}

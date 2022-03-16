@@ -1,0 +1,15 @@
+.main_pagina_descrip{
+    background: black;
+    min-height: 100vh;
+    text-align: center;
+}
+.descrip_manga h1{
+    font-size: 35px;
+}
+
+.descrip_img{
+    margin-bottom: 20px;
+}
+.decrip_parrafo{
+    color: white;
+}
